@@ -1,0 +1,36 @@
+
+    .color {
+        color: red;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: cornflowerblue;
+    }
+
+    body {
+        background-color: #7FDBFF;
+        color: whitesmoke;
+        background-image: url("/images/cyberpunk.gif");
+        background-size: cover;
+        margin: 0; padding: 0;
+    }
+
+    p {
+        font-weight: bold !important;
+    }
+
+    #footer{
+        min-width: 100%;
+        background-color: white;
+        display: flex;
+    }
+
+    #footer p, #footer p a {
+        text-align: center;
+        background-color:red;
+        width: 100%;
+        color: cyan;
+    }
+
+ 
+
+

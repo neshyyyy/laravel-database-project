@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>User-defined object</title>
+</head>
+
+<body>
+    <script>
+        var book = new Object(); //create the object
+        book.subject = "Perl";// assign properties to the object
+        book.author = "Mohtashim";
+        book.pageno = "500";
+        document.write("Book name is : " + book.subject + "<br>");
+        document.write("Book author is : " + book.author + "<br>");
+        document.write("Book has : " + book.pageno + " pages<br>");
+    </script>
+
+    <input type="text" id="username" value="myusername">
+
+    <script>
+        alert(document.getElementById('username').value);
+        alert(document.getElementById('username').value.length);
+
+        var number = 1000.55
+        document.write('<br>Value:' + number + '<br>')
+        document.write(number.toFixed() + '<br>')
+        document.write(number.toFixed(6) + '<br>')
+        document.write(number.toString().length + '<br>')
+
+        var mystring = 'This is string'
+        document.write(mystring.length)
+
+        var str = "Apples are round, and apples are juicy.";
+        document.write("<br />" + str);
+        document.write("<br />(1,2): " + str.substr(1, 2));
+        document.write("<br />(-2,2): " + str.substr(-2, 2));
+        document.write("<br />(1): " + str.substr(1));
+        document.write("<br />(-20,2): " + str.substr(-20, 2));
+        document.write("<br />(19,2): " + str.substr(19, 2));
+
+    </script>
+</body>
+
+</html>
